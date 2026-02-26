@@ -22,5 +22,5 @@ COPY --from=build /app/target/shopweb-0.0.1-SNAPSHOT.jar app.jar
 #Puerto que expone el contenedor
 EXPOSE 8080
 
-Comando para arrancar la app
+#Comando para arrancar la app
 ENTRYPOINT ["java", "-jar", "app.jar"]
